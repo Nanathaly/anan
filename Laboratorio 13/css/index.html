@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>METRO</title>
+  </head>
+  <body>
+      <div class="container">
+          <header>
+            <h1 class="text-center" style="background: gold;">METRO</h1>
+            <h2 class="text-center" style="background: rgb(255, 230, 0);">Precios Más Bajos Siempre</h2>
+          </header>
+          <!--colocar un nav - o navegador-->
+          <nav class="navbar navbar-expand-lg navbar-light border" style="background: rgb(255, 217, 0);">
+            <div class="container-fuid">
+                <a class="nav-link active" aria-current="page" href="#">Quienes Somos</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Ubicacion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="cliente.html">Cliente</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link active" href="producto.html" tabindex="-1" aria-disabled="true">Productos</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Buscar un producto" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+            <article class="m-1 w-100 p-2">
+                <!--colocar un carrusel de imagenes-->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/Imagen-1.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/Imagen-2.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/Imagen-3.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <h3 class="text-left" style="background: rgb(255, 230, 0);">Nuestros productos</h3>
+                  <section class="container m-5">
+                      <div class="row">
+                        <div class="card" style="width: 16rem;">
+                            <img src="img/ima1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">ACEITE</h5>
+                              <p class="card-text">25% DE Descuento en Aceite de oliva</p>
+                              <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 16rem;">
+                            <img src="img/ima2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">CAFÉ  s/29.80</h5>
+                              <p class="card-text">Café instantaneo Altomoyo Gourment Frasco 180g + Chocolate Kisses Extra</p>
+                              <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 16rem;">
+                            <img src="img/ima3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">ATÚN  s/4.99</h5>
+                              <p class="card-text">Filete de Atún Florida en Agua o Aceite Vegetal Lata 170g precio regular: s/5.90</p>
+                              <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 16rem;">
+                            <img src="img/ima4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">SALSAS</h5>
+                              <p class="card-text"> 20% de descuento en todas las Salsas De Mesa Cuisine & Co</p>
+                              <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>       
+                      </div>
+                  </section>
+                  <section>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Descripcion de los productos
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>En Metro puedes encontrar productos como:</strong> Tecnología, Electrohogar, Hogar, Juguetes, Perecibles, Despensa, Vinos y Licores, Cuidado Personal y mucho más.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Nuestros clientes
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>Ahora puedes afiliarte a las compras Online.</strong> Solo llenados tus datos en el siguente cuadro, obtendras grandes beneficios.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </section>
+                  <section class="m-5" style="background: rgb(255, 230, 0);">
+                    <form>
+                        <div class="row mb-3">
+                          <label for="inputEmail3" class="col-sm-2 col-form-label">Correo Electrónico:</label>
+                          <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail3">
+                          </div>
+                        </div>
+                        <div class="row mb-3">
+                          <label for="inputPassword3" class="col-sm-2 col-form-label">Contraseña:</label>
+                          <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword3">
+                          </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputPassword3" class="col-sm-2 col-form-label">Tarjeta :</label>
+                            <div class="col-sm-10">
+                              <input type="password" class="form-control" id="inputPassword3">
+                            </div>
+                          </div>
+                        <fieldset class="row mb-3">
+                          <legend class="col-form-label col-sm-2 pt-0">Medios de Pago</legend>
+                          <div class="col-sm-10">
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                              <label class="form-check-label" for="gridRadios1">
+                                Tarjeta
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                              <label class="form-check-label" for="gridRadios2">
+                                Canjear
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                              <label class="form-check-label" for="gridRadios3">
+                                Puntos bonus
+                              </label>
+                            </div>
+                          </div>
+                        </fieldset>
+                        <div class="row mb-3">
+                          <div class="col-sm-10 offset-sm-2">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="gridCheck1">
+                              <label class="form-check-label" for="gridCheck1">
+                                Confirma los datos ingresados
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Registrarse</button>
+                      </form>
+                  </section>
+            </article>
+            <footer>
+                <h4 class="text-center" style="font-size:x-large ;">By: Nathaly Amao Velasquez C24A :)</h4>
+            </footer>
+          </nav>
+      </div>
+
+
+    <h1></h1>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
